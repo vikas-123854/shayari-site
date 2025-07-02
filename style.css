@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 28px;
+}
+
+#shayari-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.shayari-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s;
+  white-space: pre-wrap;
+}
+
+.shayari-card:hover {
+  transform: scale(1.05);
+}
+
+.shayari-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
